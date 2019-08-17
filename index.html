@@ -14,7 +14,8 @@
     crossorigin=""/>
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="image/png" href="assets/logo.png" sizes="32x32" />
+    <!-- <link rel="stylesheet" href="css/particle.css"> -->
+    <link rel="icon" type="image/png" href="assets/nj1.png" sizes="32x32" />
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
    crossorigin=""></script>
@@ -23,19 +24,20 @@
   </head>
   <body>
 
-    <div id="particles-js" z-index="-5"></div>
     <header>
     	<div class="header_menu">
     		<div class="logo">
-    			<img src="assets/logo.png" alt="logo">
+    			<a href="#home">
+            <img src="assets/nj1.png" alt="logo">
+          </a>
     		</div>
     		<div class="menu_list">
     			<ul>
-    				<li><a href="#">Home</a></li>
-    				<li><a href="#">Our Work</a></li>
-    				<li><a href="#">Aboutus</a></li>
-            <li><a href="#">CLients</a></li>
-    				<li><a href="#"target="_blank target="_blank >Contactus</a></li>
+    				<li><a href="#home">Home</a></li>
+    				<li><a href="#ourwork">Our Work</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+            <li><a href="#clients">Clients</a></li>
     			</ul>
     		</div>
 
@@ -43,7 +45,57 @@
     </header>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="js/particle.js"></script>
-    <script src="js/particleinit.js"></script>
+    
+    <div id="home">
+      <div id="logo1">
+        <img src="assets/njl1.png" alt="NJ Logo 1" class="res">
+      </div>
+      <div id="logo2">
+        <img src="assets/njl2.png" alt="NJ Logo 2" class="res">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="desc">
+      <p>
+        We are your one stop shop for all things Digital and Outdoors.
+        <br>
+        We also have a Talent Management Wing with some excellent talents on board.
+      </p>
+    </div>
+
+    <div id="ourwork">
+      <div class="head">
+        <h1>Our Work</h1>
+      </div>
+      <div class="cont">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam. Cursus turpis massa tincidunt dui ut ornare lectus. Urna nunc id cursus metus aliquam eleifend. Pharetra sit amet aliquam id diam. Ac orci phasellus egestas tellus rutrum. Lobortis scelerisque fermentum dui faucibus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Commodo odio aenean sed adipiscing diam. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Consequat mauris nunc congue nisi vitae suscipit. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Vulputate eu scelerisque felis imperdiet proin. Pellentesque sit amet porttitor eget dolor morbi. Sagittis aliquam malesuada bibendum arcu vitae. Vitae congue mauris rhoncus aenean. Non curabitur gravida arcu ac tortor dignissim. Donec adipiscing tristique risus nec feugiat in fermentum. Vitae tortor condimentum lacinia quis vel. Lacinia at quis risus sed vulputate.
+        </p>
+      </div>
+    </div>
+
+    <div id="aboutus">
+      <div class="head">
+        <h1>About Us</h1>
+      </div>
+      <div class="cont">
+        <p>
+          Founded in 2018 and lead by Mr. Aman Shah and Mr. Kruparth Shah, NJ Media House aspires to be the next big thing in the Media Space.
+          <br>
+          <br>
+          It will take efforts, courage, multitude of risks to get to where we aspire, but we are ready for the task at hand.
+          <br>
+          <br>
+          We give ONE HUNDRED PERCENT to every project under us. We hope to serve our clients with the utmost care, concern and quality.
+          <br>
+          <br>
+          Looking forward to see you around.        
+        </p>
+      </div>
+    </div>
+
   </body>
 </html>
