@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NJ MEDIA HOUSE</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142860092-1"></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" type="image/png" href="assets/nj1.png" sizes="32x32">
     <script src="js/index.js"></script>
@@ -17,21 +27,23 @@
     	<div class="header_menu">
     		<div class="logo">
     			<a href="#home">
-            <img id="headlogo" src="assets/nj1.png" alt="logo" onmouseover="this.src='assets/nj2.png'" onmouseout="this.src='assets/nj1.png'">
+            <img src="assets/nj1.png" alt="logo" onmouseover="this.src='assets/nj2.png'" onmouseout="this.src='assets/nj1.png'">
           </a>
     		</div>
     		<div class="menu_list">
     			<ul>
     				<li><a href="#home_page">Home</a></li>
     				<li><a href="#ourwork_page">Our Work</a></li>
-            <li><a href="#aboutus">About Us</a></li>
-            <li><a href="#contactus">Contact Us</a></li>
+            <li><a href="#about_page">About Us</a></li>
+            <li><a href="#contact_page">Contact Us</a></li>
             <li><a href="#clients">Clients</a></li>
     			</ul>
     		</div>
     	</div>
     </header>
     
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <div id="home_page">
       <br>
     </div>
@@ -43,7 +55,7 @@
         <img src="assets/njl2.png" alt="NJ Logo 2" class="res">
       </div>
     </div>
-    <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br>
     <div id="desc">
       <p>
         We are your one stop shop for all things Digital and Outdoors.
@@ -52,7 +64,7 @@
       </p>
     </div>
     <div id="ourwork_page">
-      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+     <br> <br> <br> <br> <br> <br>
     </div>
     <div id="ourwork">
       <div class="head">
@@ -68,18 +80,21 @@
           <img class="mySlides" src="assets/carou2.jpeg">
           <img class="mySlides" src="assets/carou3.jpeg">
           <img class="mySlides" src="assets/carou4.jpeg">
+          <br>
           <button class="w3-button" onclick="plusDivs(-1)">&#10094;</button>
           &nbsp;
           <button class="w3-button" onclick="plusDivs(+1)">&#10095;</button>
        </div>
       </div>
     </div>
-
+    <div id="about_page">
+        <br> <br> <br> <br> <br> <br>
+    </div>
     <div id="aboutus">
       <div class="head">
         <h1>About Us</h1>
       </div>
-      <div class="cont">
+      <div class="cont1">
         <p>
           Founded in 2018 and lead by Mr. Aman Shah and Mr. Kruparth Shah, NJ Media House aspires to be the next big thing in the Media Space.
           <br>
@@ -93,6 +108,9 @@
           Looking forward to see you around.
         </p>
       </div>
+    </div>
+    <div id="contact_page">
+        <br> <br> <br> <br> <br> <br> <br>
     </div>
     <div class="child-container">
       <div id="reach">

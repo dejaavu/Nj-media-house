@@ -22,14 +22,10 @@ body {
 {
 	width: 12%;
 	text-align: center;
-
 }
 .logo img{
-
 	height: 120px;
 	padding-top: 8px;
-
-
 }
 .menu_list{
 	width: 85%;
@@ -110,6 +106,10 @@ header {
 }
 
 .cont{
+	margin: auto;
+	width: 70%;
+}
+.cont1{
 	margin: auto;
 	width: 70%;
 }
