@@ -121,6 +121,9 @@ header {
 }
 
 .mySlides{
+	padding: 10px;
+	border: 3px solid; 
+	border-color: aliceblue;
 	margin: auto;
 	height: 400px;
 }
