@@ -5,24 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NJ MEDIA HOUSE</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""/>
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="image/png" href="assets/nj1.png" sizes="32x32" />
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-   crossorigin=""></script>
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142860092-1"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="image/png" href="assets/nj1.png" sizes="32x32">
+    <script src="js/index.js"></script>
 
   </head>
-  <body>
-
+  <body onload="showDivs(1)">
     <header>
     	<div class="header_menu">
     		<div class="logo">
@@ -39,11 +29,8 @@
             <li><a href="#clients">Clients</a></li>
     			</ul>
     		</div>
-
     	</div>
     </header>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     
     <div id="home">
       <div id="logo1">
@@ -71,8 +58,18 @@
       </div>
       <div class="cont">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim blandit volutpat maecenas volutpat blandit aliquam etiam. Cursus turpis massa tincidunt dui ut ornare lectus. Urna nunc id cursus metus aliquam eleifend. Pharetra sit amet aliquam id diam. Ac orci phasellus egestas tellus rutrum. Lobortis scelerisque fermentum dui faucibus in. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Commodo odio aenean sed adipiscing diam. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Consequat mauris nunc congue nisi vitae suscipit. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Vulputate eu scelerisque felis imperdiet proin. Pellentesque sit amet porttitor eget dolor morbi. Sagittis aliquam malesuada bibendum arcu vitae. Vitae congue mauris rhoncus aenean. Non curabitur gravida arcu ac tortor dignissim. Donec adipiscing tristique risus nec feugiat in fermentum. Vitae tortor condimentum lacinia quis vel. Lacinia at quis risus sed vulputate.
+          Faraz Ali Shah performing for various groups, gifted with an excellent voice and unimaginably beautiful guitar skills
         </p>
+        <br>
+        <div class="carou">
+          <img class="mySlides" src="assets/carou1.jpeg">
+          <img class="mySlides" src="assets/carou2.jpeg">
+          <img class="mySlides" src="assets/carou3.jpeg">
+          <img class="mySlides" src="assets/carou4.jpeg">
+          <button class="w3-button" onclick="plusDivs(-1)">&#10094;</button>
+          &nbsp;
+          <button class="w3-button" onclick="plusDivs(+1)">&#10095;</button>
+       </div>
       </div>
     </div>
 

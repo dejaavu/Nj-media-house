@@ -53,19 +53,6 @@ body {
 .menu_list li a:hover{
 	color: orange;
 }
-canvas {
-    display: block;
-    vertical-align: bottom;
-}
-
-@font-face {
-    font-family: 'thunderstrikeregular';
-    src: url('../assets/fonts/thunderstrike/thunderstrike-webfont.woff2') format('woff2'),
-            url('../assets/fonts/thunderstrike/thunderstrike-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 header {
     position: fixed;
@@ -126,4 +113,15 @@ header {
 .cont{
 	margin: auto;
 	width: 70%;
+}
+
+.carou{
+	align-items: center;
+	margin: auto;
+	width: 70%;
+}
+
+.mySlides{
+	margin: auto;
+	height: 400px;
 }
