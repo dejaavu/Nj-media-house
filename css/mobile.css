@@ -2,8 +2,8 @@
     #contact{
         grid-column: 1 /  11;
         background-image: radial-gradient(rgba(0,255,255,0.05),rgba(0,255,255,0.2));
-        border: 3px solid;
-        border-color: aqua;
+        border: 2px solid;
+        border-color: white;
         text-align: center;
         width:100%;
         height: 100%;
@@ -100,6 +100,46 @@
     
     .mySlides{
         height: 250px;
+    }
+
+    .design{
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+        min-height: 0;
+        min-width: 0;
+        max-height: 50%;
+    }
+
+    #line{
+        padding-left:21%; 
+        width:80%;
+        align-content: center; 
+        font-family: 'Dosis', sans-serif;
+        color: aliceblue;
+        text-transform: uppercase;
+    }
+
+    .tirth{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: 80%;
+        min-height: 0;
+        min-width: 0;
+        height: 30% !important;
+    }
+
+    .aniket{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        font-size: 80%;
+        min-height: 0;
+        min-width: 0;
+        height: 30% !important;
+    }
+
+    #desby{
+        font-size: 100% !important;
     }
     
 }
