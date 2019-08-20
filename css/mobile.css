@@ -141,5 +141,10 @@
     #desby{
         font-size: 100% !important;
     }
-    
+    .mail1{
+        padding-left: 80px !important;
+    }
+    .mail2{
+        padding-left: 72px !important;
+    }
 }
