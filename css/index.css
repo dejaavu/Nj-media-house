@@ -122,6 +122,10 @@ header {
 	width: 70%;
 }
 
+.xyz{
+	display: none;
+}
+
 .mySlides{
 	padding: 10px;
 	border: 1px solid; 
@@ -166,7 +170,7 @@ header {
 #contact_shelf{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto 50px;
+    grid-template-rows: auto;
     width:80%;
     margin: auto;
     align-items: center;
@@ -241,5 +245,3 @@ header {
 	letter-spacing: 2px;
 	text-align: center;
 }
-
-

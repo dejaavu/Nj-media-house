@@ -14,3 +14,11 @@ function showDivs(n,g) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+function showElem(){
+  var elem = document.getElementById('1');
+  var elem2 = document.getElementById('2');
+  elem.classList.remove('xyz');
+  elem2.classList.remove('xyz');
+  console.log(1);
+}
