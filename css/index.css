@@ -3,6 +3,10 @@
 	padding: 0;
 
 }
+
+html{
+	scroll-behavior: smooth;
+}
 body {
     margin: 0;
 		font: normal 75% Arial, Helvetica, sans-serif;
@@ -219,17 +223,7 @@ header {
     color:aqua;
     padding-bottom: 0;
 }
-.full-container{
-    height: 100%;
-    overflow: -moz-scrollbars-none;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    scroll-behavior: smooth;
-    overflow-x:hidden;
-    -webkit-overflow-scrolling:touch;
-}
 
-.full-container::-webkit-scrollbar { width: 0 !important }
 #line{
 	padding-left:30%; 
 	width:70%;
