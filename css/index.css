@@ -239,3 +239,18 @@ header {
 	letter-spacing: 2px;
 	text-align: center;
 }
+#clients{
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+	font-size: 20px;
+}
+.client{
+	padding-left: 30%;
+	padding-right: 30%;
+	height: 100px;
+	width: auto;
+}
+.client img {
+	height: 100%;
+	width: 100%;
+ }

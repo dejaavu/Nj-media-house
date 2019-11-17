@@ -147,4 +147,36 @@
     .mail{
         font-size: 90%;
     }
+
+    #clients{
+        text-align: center;
+    }
+    .client{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .client img {
+        height: 100%;
+        width: 100%;
+     }
+    #c1{
+         height: 90px;
+         width: auto;
+     }
+    #c2{
+        height: 110px;
+        width: auto;
+    }
+    #c3{
+        height: 100px;
+        width: auto;
+    }
+    #c4{
+        height: 80px;
+        width: auto;
+    }
+    #c5{
+        height: 70px;
+        width: auto;
+    }
 }
