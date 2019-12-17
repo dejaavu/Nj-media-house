@@ -179,4 +179,7 @@
         height: 70px;
         width: auto;
     }
+    .mobilebr{
+        display: none;
+    }
 }

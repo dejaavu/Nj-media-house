@@ -110,7 +110,18 @@ header {
   	font-family: 'Dosis', sans-serif;
 	text-align: center;
 }
-
+#ourservices{
+	color: rgba(255,255,255,0.8);
+	font-size: 20px;
+  	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+#whynj{
+	color: rgba(255,255,255,0.8);
+	font-size: 20px;
+  	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
 .cont{
 	margin: auto;
 	width: 70%;
