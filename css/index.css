@@ -22,6 +22,29 @@ body {
 	align-items: center;
 	background-color: black;
 }
+.navbar {
+	background-color:rgba(0, 0, 0, 0.5);
+	letter-spacing: 2px;
+	
+}	
+.navbar li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-family: 'Dosis', sans-serif;
+	padding-right:35px;
+}
+.nav-item{
+	text-align: end;
+}
+.njlogo{
+	padding-left:35px;
+}
+.njlogo img{
+	width:60px;
+}
 .logo
 {
 	width: 12%;
